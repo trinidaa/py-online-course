@@ -25,5 +25,4 @@ class OnlineCourse:
         days = course_dict.get("days", 0)
 
         total_weeks = cls.days_to_weeks(days)
-        print(f"If You will study {name}. {description} by {total_weeks} weeks")
         return cls(name, description, total_weeks)
